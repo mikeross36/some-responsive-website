@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>gulp responsive website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="/dist/scss/main.css?cb=1606295579178">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <script src="https://kit.fontawesome.com/9664c8b16b.js"></script>
+    </head>
+    <body>
+        <header id="header">
+            <div class="container">
+                <nav>
+                    <a href="#" class="header-logo">
+                        <h4>company logo here<div class="header-clock"></div></h4>
+                    </a>
+                    <div class="menu-btn hide-for-desktop">
+                        <span></span>
+                        <span style="background:chocolate;"></span>
+                        <span></span>
+                    </div>
+                    <div class="desktop-links hide-for-mobile">
+                        <a href="#">home</a>
+                        <a href="#tabs">quotes</a>
+                        <a href="#budget">budget</a>
+                        <a href="#short-stories">stories</a>
+                        <a href="#shop">shop</a>
+                        <a href="#footer-contact">contact</a>
+                    </div>
+                    <form action="#" class="search-form">
+                        <div class="search-box">
+                            <label for="name"></label>
+                            <input type="search" name="name" value="" tabindex="1" placeholder="search...">
+                            <input type="submit" value="submit">
+                        </div>
+                    </form>
+                </nav>
+            </div>
+            <div class="mobile-links hide-for-desktop has-fade">
+                <a href="#header">home</a>
+                <a href="#tabs">quotes</a>
+                <a href="#budget">budget</a>
+                <a href="#short-stories">stories</a>
+                <a href="#shop">shop</a>
+                <a href="#footer-contact">contact</a>
+            </div>
+        </header>
+
+        <section class="banner">
+            <div class="container">
+                <div class="banner-container">
+                    <div class="banner-text">
+                        <h1>
+                            It's a simple & <br>
+                            responsive website
+                        </h1>
+                        <p>
+                            A responsive website is one that has been designed to respond or
+                            adapt, based on the technology and type of computing device used
+                            by the visitor to display the site. It is basically one website
+                            design that will looks good at any size.
+                        </p>
+                        <a href="https://bit.ly/3mnIG6L" target="_blank" class="main-button">explore</a>
+                    </div>
+                    <div class="banner-image"></div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <section class="tabs" id="tabs">
+            <div class="container">
+                <div class="tabs-header">
+                    <h3>quotes and sayings from doctor house</h3>
+                    <p>
+                        For years, Dr. House imparted wisdom not only to those in his
+                        office, but also to us, the audience, watching him be a snarky,
+                        grumpy old man.
+                    </p>
+                </div>
+                <!--  -->
+                <div class="tabs-btn-box">
+                    <button id="btn1" onclick="openDoctors()">Doctors</button>
+                    <button id="btn2" onclick="openReality()">Reality</button>
+                    <button id="btn3" onclick="openPeople()">People</button>
+                </div>
+                <!--  -->
+                <article class="tabs-content" id="content1">
+                    <div class="content-left">
+                        <h3>I solved the case my work is done</h3>
+                        <p>
+                            "We treat the patient. If she or he gets better we know that we're
+                            right. Our bodies break down, sometimes when we're 90, sometimes
+                            before we're even born, but it always happens and there's never
+                            any dignity in it. I don't care if you can walk, see, wipe your own 
+                            ass. It's always ugly."
+                        </p>
+                        <a href="https://quotecatalog.com/communicator/dr-gregory-house" 
+                        target="_blank" 
+                        class="main-button">
+                        explore
+                        </a>
+                    </div>
+                    <div class="content-right">
+                        <img src="/dist/images/dr-house-glowe.png" alt="dr house">
+                    </div>
+                </article>
+                <!--  -->
+                <article class="tabs-content" id="content2">
+                    <div class="content-left">
+                        <h3>Reality is almost always wrong</h3>
+                        <p>
+                            "Everybody lies. I don't ask why patients lie, I just assume they
+                            all do. It's a basic truth of the human condition that everybody
+                            lies. Truth begins in lies. I've found that when you want to know
+                            the truth about someone that someone is probably the last person
+                            you should ask."
+                        </p>
+                        <a href="https://quotecatalog.com/communicator/dr-gregory-house" 
+                        target="_blank" 
+                        class="main-button">
+                        explore</a>
+                    </div>
+                    <div class="content-right">
+                        <img src="/dist/images/dr-house-brain.png" alt="dr house">
+                    </div>
+                </article>
+                <!--  -->
+                <article class="tabs-content" id="content3">
+                    <div class="content-left">
+                        <h3>Everybody does stupid things</h3>
+                        <p>
+                            "Humanity is overrated. People like talking about people. Makes us
+                            feel superior. Makes us feel in control. And sometimes, for some
+                            people, knowing some things makes them care. We all make mistakes,
+                            and we all pay a price. Men are pigs. They will, pretty much have 
+                            sex with anyone, fat, skinny, married, single, complete strangers, 
+                            relatives."
+                        </p>
+                        <a href="https://quotecatalog.com/communicator/dr-gregory-house" 
+                        target="_blank"
+                        class="main-button">
+                        explore
+                        </a>
+                    </div>
+                    <div class="content-right">
+                        <img src="/dist/images/house-chem.png" alt="dr house">
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!--  -->
+        <section class="short-stories" id="short-stories">
+            <h2 class="section-title">read short stories online</h2>
+            <div class="container">
+              <div class="main-content" id="main-content">
+                <div class="card">
+                  <h3 class="card-header" id="story-title">story title</h3>
+                  <div class="card-body">
+                    <div class="display-box scroll-box" id="file-content">
+                      <!-- file content -->
+                      Select a story ...
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-widgets">
+                <div class="card select-story">
+                  <h5 class="card-header">select a story</h5>
+                  <div class="card-body">
+                    <ul>
+                      <li>
+                        <a
+                          href="#main-content"
+                          onclick="loadStory('The Cabuliwallah.txt','The Cabuliwallah')"
+                          >The Cabuliwallah</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#main-content"
+                          onclick="loadStory('The Happy Prince.txt','The Happy Prince')"
+                          >The Happy Prince</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#main-content"
+                          onclick="loadStory('The Magic Shop.txt','The Magic Shop')"
+                          >The Magic Shop</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#main-content"
+                          onclick="loadStory('The Necklace.txt','The Necklace')"
+                          >The Necklace</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card search-form">
+                  <h5 class="card-header">search by key word</h5>
+                  <div class="card-body">
+                    <input type="text" id="keyword" placeholder="search..." />
+                    <button class="search-btn" onclick="performMark()">search</button>
+                  </div>
+                  <div class="card-footer" id="search-result">
+                    <!-- search result -->
+                  </div>
+                </div>
+                <div class="card">
+                  <h5 class="card-header">most used words</h5>
+                  <div class="card-body">
+                    <div>
+                      <ul id="most-used"></ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <h5 class="card-header">least used words</h5>
+                  <div class="card-body">
+                    <div>
+                      <ul id="least-used"></ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card doc-count">
+                  <h5 class="card-header">chars & words</h5>
+                  <div class="card-body">
+                    <ul>
+                      <li id="doc-length"></li>
+                      <li id="word-count"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!--  -->
+        <section class="budget-calculator" id="budget">
+            <h2>Budget Calculator</h2>
+            <div class="container">
+              <div class="budget-center">
+                <div class="first-row">
+                  <div class="budget-container">
+                    <div class="budget-feedback" id="budget-feedback">
+                      budget feedback
+                    </div>
+                    <form id="budget-form">
+                      <label for="budget-input"><h4>enter your budget</h4></label>
+                      <input type="number" class="budget-input" id="budget-input" />
+                      <button class="budget-submit">calculate</button>
+                    </form>
+                  </div>
+                  <div class="budget-info">
+                    <div>
+                      <h4 class="info-title">budget</h4>
+                      <span class="budget-icon"
+                        ><i class="fas fa-money-bill-alt"></i
+                      ></span>
+                      <h4 class="budget" id="budget">
+                        <span>€ </span><span id="budget-amount">0</span>
+                      </h4>
+                    </div>
+                    <!--  -->
+                    <div>
+                      <h4 class="info-title">expense</h4>
+                      <span class="expense-icon"
+                        ><i class="fas fa-money-check"></i
+                      ></span>
+                      <h4 class="expense" id="expense">
+                        <span>€ </span><span id="expense-amount">0</span>
+                      </h4>
+                    </div>
+                    <!--  -->
+                    <div>
+                      <h4 class="info-title">balance</h4>
+                      <span class="balance-icon"
+                        ><i class="fas fa-euro-sign"></i
+                      ></span>
+                      <h4 class="balance" id="balance">
+                        <span>€ </span><span id="balance-amount">0</span>
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="second-row">
+                  <div class="expense-container">
+                    <div class="expense-feedback" id="expense-feedback">
+                      expense feedback
+                    </div>
+                    <form id="expense-form">
+                      <div>
+                        <label for="expense-input"><h4>enter your expense</h4></label>
+                        <input type="text" class="expense-input" id="expense-input" />
+                      </div>
+                      <div>
+                        <label for="amount-input"><h4>enter expense amount</h4></label>
+                        <input type="number" class="expense-input" id="amount-input"/>
+                      </div>
+                      <button class="expense-submit">add expense</button>
+                    </form>
+                  </div>
+                  <div id="expense-list">
+                    <div class="expense-list-info">
+                      <h5 class="list-item">expense title</h5>
+                      <h5 class="list-item">expense value</h5>
+                      <h5 class="list-item">----</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--  -->
+          <section class="shop" id="shop">
+            <div class="container">
+              <div class="shop-header">
+                <h3>product shopping cart</h3>
+                <div class="cart-btn" id="cart-btn">
+                  <span class="cart-icon"><i class="fas fa-cart-plus"></i></span>
+                  <div class="cart-items" id="cart-items">0</div>
+                </div>
+              </div>
+              <div class="products">
+                <h3 class="section-title">our products</h3>
+                <div class="products-center" id="products-center">
+                 <!-- article -->
+                </div>
+              </div>
+              <div class="cart-overlay" id="cart-overlay">
+                <div class="cart" id="cart">
+                  <span class="close-cart" id="close-cart">
+                    <i class="fas fa-window-close"></i>
+                  </span>
+                  <h3>your cart</h3>
+                  <div class="cart-content" id="cart-content">
+                   <!-- cart item -->
+                  </div>
+                  <div class="cart-footer">
+                    <h3>your total : <span class="cart-total" id="cart-total"> 0</span></h3>
+                    <button class="clear-cart" id="clear-cart">clear cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!--  -->
+        <section class="slider" id="slider">
+            <div class="container">
+                <h3 class="slider-title">users testimonials</h3>
+                <div class="slider-wrapper">
+                <div class="slider-content" id="slider-content">
+                    <!-- SLIDES -->
+                    <div class="active">
+                    <div class="slider-img">
+                        <img src="/dist/images/jimie-hendrix.jpeg" alt="">
+                        <h4>Jimi Hendrix <br>
+                        <small>musician singer songwriter</small>
+                        </h4>
+                    </div>
+                    <p>
+                        “Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                        diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                        aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                        justo duo dolores et ea rebum.”
+                    </p>
+                    </div>
+                    <!--  -->
+                    <div>
+                    <div class="slider-img">
+                        <img src="/dist/images/johny-winter.jpg" alt="">
+                        <h4>Johnny Winter <br>
+                        <small>blues singer and guitarist</small>
+                        </h4>
+                    </div>
+                    <p>
+                        “Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                        diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                        aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                        justo duo dolores et ea rebum.”
+                    </p>
+                    </div>
+                    <!--  -->
+                    <div>
+                    <div class="slider-img">
+                        <img src="/dist/images/joey-ramone.jpg" alt="">
+                        <h4>Joey Ramone <br>
+                        <small>lead vocalist of the Ramones</small>
+                        </h4>
+                    </div>
+                    <p>
+                        “Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                        diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                        aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                        justo duo dolores et ea rebum.”
+                    </p>
+                    </div>
+                    <!--  -->
+                    <div>
+                    <div class="slider-img">
+                        <img src="/dist/images/frank-zappa.jpg" alt="">
+                        <h4>Frank Zappa <br>
+                        <small>singer songwriter and bandleader</small>
+                        </h4>
+                    </div>
+                    <p>
+                        “Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                        diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                        aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                        justo duo dolores et ea rebum.”
+                    </p>
+                    </div>
+                    <!--  -->
+                    <div>
+                    <div class="slider-img">
+                        <img src="/dist/images/stevie-ray.jpg" alt="">
+                        <h4>Stevie Ray Vaughan <br>
+                        <small>singer songwriter and guitarist</small>
+                        </h4>
+                    </div>
+                    <p>
+                        “Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                        diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                        aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                        justo duo dolores et ea rebum.”
+                    </p>
+                    </div>
+                </div>
+                </div>
+                <div class="arrows">
+                    <div class="left-arrow" id="left-arrow">
+                        <img src="/dist/images/left-arrow-gray.png" alt="left arrow">
+                    </div>
+                    <div class="right-arrow" id="right-arrow">
+                        <img src="/dist/images/right-arrow-gray.png" alt="right arrow">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <section class="team-members">
+            <div class="container">
+              <div class="team-title">
+               <h1>our team</h1>
+               <div class="title-underline"></div>
+              </div>
+              <div class="team-center">
+                <!--  -->
+                <article class="team-member">
+                  <img src="/dist/images/neo.jpg" alt="team-member">
+                  <div class="img-footer">
+                    <div class="footer-info">
+                      <h3>john doe <br><small>front-end developer</small></h3>
+                      <div class="social-icons">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <!--  -->
+                <article class="team-member">
+                  <img src="/dist/images/trinity.jpg" alt="team-member">
+                  <div class="img-footer">
+                    <div class="footer-info">
+                      <h3>jane doe <br><small>front-end developer</small></h3>
+                      <div class="social-icons">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <!--  -->
+                <article class="team-member">
+                  <img src="/dist/images/morpheus.jpg" alt="team-member">
+                  <div class="img-footer">
+                    <div class="footer-info">
+                      <h3>john doe <br><small>front-end developer</small></h3>
+                      <div class="social-icons">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <!--  -->
+                <article class="team-member">
+                  <img src="/dist/images/smith.jpg" alt="team-member">
+                  <div class="img-footer">
+                    <div class="footer-info">
+                      <h3>john doe <br><small>front-end developer</small></h3>
+                      <div class="social-icons">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <!--  -->
+                <article class="team-member">
+                  <img src="/dist/images/oracle.jpg" alt="team-member">
+                  <div class="img-footer">
+                    <div class="footer-info">
+                      <h3>jane doe <br><small>front-end developer</small></h3>
+                      <div class="social-icons">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <!--  -->
+                <article class="team-member">
+                  <img src="/dist/images/brown.jpg" alt="team-member">
+                  <div class="img-footer">
+                    <div class="footer-info">
+                      <h3>john doe <br><small>front-end developer</small></h3>
+                      <div class="social-icons">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+    <!--  -->
+    <section class="partners">
+        <div class="container">
+          <h2>our partners</h2>
+          <div class="partners-logos">
+            <img src="/dist/images/wacky-x-logo.png" alt="partner">
+            <img src="/dist/images/beautiful-view.png" alt="partner">
+            <img src="/dist/images/dolphin-logo.png" alt="partner">
+            <img src="/dist/images/globe-wings.png" alt="partner">
+            <img src="/dist/images/abstract-tree.png" alt="partner">
+          </div>
+        </div>
+      </section>
+     
+      <section class="subscribe">
+        <div class="container">
+          <div class="subscribe-form" id="subscribe-form">
+            <form action="#">
+              <h4 id="form-title">let's keep in touch!</h4>
+              <input type="email" id="email-input" placeholder="your email address">
+              <p id="form-para">we will not share your information</p>
+            </form>
+            <a href="#" class="subscribe-btn" id="subscribe-btn">subscribe</a>
+          </div>
+        </div>
+      </section>
+     
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-wrapper">
+            <a href="#" class="footer-logo">
+              <h4>company logo here</h4>
+              <div class="footer-clock"></div>
+            </a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur 
+              adipisicing elit. Non natus rem praesentium! 
+              Fuga facere totam debitis sed doloremque id 
+              voluptatibus.
+            </p>
+            <div class="footer-contact" id="footer-contact">
+                <a href="#" class="footer-phone">
+                  <i class="fa fa-phone"></i>
+                  +381 66 22 33 77
+                </a>
+                <a href="#" class="footer-email">
+                  <i class="fa fa-envelope"></i>
+                  someemail@email.com
+                </a>
+                <a href="#" class="footer-address">
+                  <i class="fa fa-map-marker"></i>
+                  some address 125 novi sad
+                </a>
+            </div>
+            <div class="footer-links1">
+              <h4>wehat's new</h4>
+              <a href="#">privacy & cookies</a>
+              <a href="#">terms of use</a>
+              <a href="#">trademarks</a>
+              <a href="#">safety & eco</a>
+              <a href="#">about our ads</a>
+            </div>
+            <div class="footer-links2">
+              <h4>usefull links</h4>
+              <a href="">home</a>
+              <a href="#tabs">quotes</a>
+              <a href="#budget">budget</a>
+              <a href="#short-stories">stories</a>
+              <a href="#shop">shop</a>
+              <a href="#footer-contact">contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy;Copyright 2020 DodaDesign All rights reserved</p>
+        </div>
+      </footer>
+     
+      <script id="li-template" type="text/template">
+        <li>{{template}}</li>
+      </script>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/dist/js/all.js"></script>
+    </body>
+</html>
